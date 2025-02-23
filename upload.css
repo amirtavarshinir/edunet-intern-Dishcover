@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #ffffff;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: rgb(141, 234, 228);
+    padding: 25px;
+    border-radius: 12px;
+
+}
+h2 {
+    text-align: center;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+label {
+    font-weight: bold;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #20087f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #730bc3;
+}
+list{
+    margin-top: 20px;
+}
+.recipe {
+    background: #fff3cd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}

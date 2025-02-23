@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dishcover-signin</title>
+    <link rel="icon" href="icon.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>Dishcover 🥘</h1>
+        <p>Crafting and sharing the perfect plate by discovering it - An interactive recipe-sharing platform 🍴</p><br>
+        <h2>Create account</h2>
+    <h3 align ="left"><form>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="pic">Profile(optional)</label><br>
+        <input type="file" id="pic" name="pic"><br>
+        <label for="email">Email</label><br>
+        <input type="email"id="email" name="email" required><br>
+        <label for="phone">Mobile number</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{5} [0-9]{5}" placeholder="12345 67890" required><br>
+        <label for="pwd">Password(min 8 characters)</label><br>
+        <input type="password" id="pwd" maxlength="10" required ><br>
+        <a href="dashboard.html">
+            <input type="button" autofocus onclick="alert('Account created successfully!')" value="Signup">
+        </a>
+        
+        <h3><a href="login.html">Already existing account? Click here to login</a></h3>
+    </h3>
+    </form>
+    </center>
+</body>
+</html>

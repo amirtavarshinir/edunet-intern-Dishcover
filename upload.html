@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dishcover</title>
+    <link rel="icon" href="icon.jpg">
+    <link rel="stylesheet" href="upload.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Upload a New Recipe</h2>
+        <div class="form-group">
+            <label for="name">Recipe Name:</label>
+            <input type="text" id="name" placeholder="Enter recipe name">
+        </div>
+        <div class="form-group">
+            <label for="desc">Description:</label>
+            <textarea id="desc" rows="7" placeholder="Enter the recipe's description"></textarea>
+        </div>
+        <button onclick="addRecipe()">Upload Recipe</button>
+
+        <h2>Existing Recipes</h2>
+        <div class="list" id="recipe-list">
+            <a href="explore.html">Explore new recipes</a>
+        </div>
+    </div>
+</body>
+</html>

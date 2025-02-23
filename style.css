@@ -1,0 +1,23 @@
+input{
+
+    width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(72, 0, 255);
+  background-color: #baf9e2;
+  color: rgb(9, 8, 8);
+}
+button{
+    background-color: #340494;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+h2{
+    color: #340494;
+}
